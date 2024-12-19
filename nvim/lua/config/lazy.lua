@@ -20,6 +20,8 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.dap.nlua" },
     { import = "lazyvim.plugins.extras.editor.harpoon2" },
     { import = "lazyvim.plugins.extras.editor.overseer" },
+    { import = "lazyvim.plugins.extras.editor.telescope" },
+    -- { import = "lazyvim.plugins.extras.coding.nvim-cpm" },
     { import = "lazyvim.plugins.extras.lang.angular" },
     { import = "lazyvim.plugins.extras.lang.ansible" },
     { import = "lazyvim.plugins.extras.lang.docker" },
