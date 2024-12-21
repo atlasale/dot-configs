@@ -10,14 +10,14 @@ return {
     end,
   },
   -- Setup nvim-cmp
-  -- {
-  --   "nvim-cmp",
-  --   ---@param opts cmp.ConfigSchema
-  --   opts = function(_, opts)
-  --     -- Disable ghost text for nvim-cmp, use copilot suggestion instead
-  --     opts.experimental.ghost_text = false
-  --   end,
-  -- },
+  {
+    "nvim-cmp",
+    ---@param opts cmp.ConfigSchema
+    opts = function(_, opts)
+      -- Disable ghost text for nvim-cmp, use copilot suggestion instead
+      opts.experimental.ghost_text = false
+    end,
+  },
   -- Setup copilot.vim
 
   {
